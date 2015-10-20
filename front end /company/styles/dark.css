@@ -1,0 +1,21 @@
+body {color: #BEBEBE}
+.page-content {background: #404040}
+h1, h2, h3, h4, h5, h6, a, .member .m_title, .p-content span, .process .title, .widget .w_title {
+	color: #fff
+}
+.filters {color: #C4C4C4}
+.meta_work .meta span:before {color: #646464;}
+#my_gallery .mix:hover img {box-shadow: -4px 4px 6px rgba(34, 34, 34, 0.4);}
+.load_more_posts a, .load_more_portfolio a {
+	border: 2px solid #515151;
+	color: #515151;
+}
+.title .under_title {color: #BBB;}
+.services-table, .services-table .p-content, .process .num {background: #3C3C3C;}
+.services-table:hover, .services-table:hover .p-content, .process [class^="grid_"]:hover .num {
+	background: #404040;
+}
+.services-table, .services-table .head, .posts .title .under_title, .post {border-color: #4E4E4E}
+.package-content li {color: #B4B4B4;}
+.tags a {color: #747474;border: 1px solid #747474;}
+.toggles .toggle-head, .toggles .tt-toggle {background: #404040;}

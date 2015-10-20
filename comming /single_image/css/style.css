@@ -1,0 +1,16 @@
+/*
+* Theme Name: Exit
+* File name: style.css
+* Theme URL: exit.mordorthemes.com
+* Description: Exit - Beautiful Under Construction template
+* Author: Mordorthemes
+* Author URL: http://www.mordorthemes.com
+* Support: support@mordorthemes.com
+* Version: 1.0
+*/
+
+@import url("normalize.css");
+@import url("foundation.css");
+@import url("exit-font.css");
+@import url("owl.transitions.css");
+@import url("layout.css");

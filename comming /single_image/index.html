@@ -1,0 +1,285 @@
+<!doctype html>
+<html class="no-js " lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sortie | Beautiful Under Construction Template</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <script src="js/vendor/modernizr.js"></script>
+  </head>
+  <body>
+
+<!-- Preloader -->
+<div class="mask">
+  <div id="loader" class="rotating"></div>
+</div>
+<!--/Preloader -->
+
+<!--start wrapper -->
+<div class="wrapper">
+  <div class="overlay"></div>
+
+<div class="row">
+
+  <!--start logo -->
+  <div class="large-12 columns text-center">
+    <img src="img/logo.png" alt="Exit" /><!-- change your logo here -->
+  </div>
+  <!-- end logo -->
+
+  <div class="large-5 columns large-centered">
+
+    <!-- start top links -->
+    <div class="large-4 small-4 columns top-link">
+      <a title="" href="#" data-reveal-id="contact">
+        <i class="icon exit-email-mail-streamline"></i>
+        Email
+      </a>
+    </div>
+
+    <div class="large-4 small-4 columns top-link">
+      <a title="" href="#" data-reveal-id="about">
+        <i class="icon exit-bubble-comment-streamline-talk"></i>
+        About
+      </a>
+    </div>
+
+    <div class="large-4 small-4 columns top-link">
+      <a title="" href="#" data-reveal-id="localize">
+        <i class="icon exit-map-pin-streamline"></i>
+        Where
+      </a>
+    </div>
+    <!-- end top links -->
+
+  </div>
+
+</div>
+
+  <!-- start section -->
+  <section class="main">
+
+    <div class="row">
+      <div class="large-12 columns">
+        <div class="large-6 columns large-text-right small-text-center">
+          <h2 class="heading">OUR WEBSITE IS COMING SOON</h2>
+            <p>We are pleased to announce the release of our new website. It will be designed with a fresh new look and user-friendly navigation, updated with our latest articles. You will be able to review the articles we write and interact with other readers. </p>
+        </div>
+        <div class="large-6 columns large-text-left small-text-center">
+          <p class="heading bold">TIME REMAINING TO LUNCH:</p>
+
+            <!-- start timer, reference to js/countdown.js for change date -->
+            <div id="timer"></div>
+            <!-- end timer -->
+
+        </div>
+      </div>
+
+      <div class="large-12 columns">
+        <div class="large-6 columns large-text-right small-text-center">
+          <h3 class="heading">LEAVE YOUR EMAIL TO GET OR NEWS</h3>
+
+            <!-- start message validator -->
+            <div id="message-subscribe"></div>
+            <!-- end message validator -->
+
+            <!-- start newsletter form -->
+            <form id="subscribe" method="post" action="php/subscribe.php" name="subscribe">           
+                <input type="text" id="semail" name="YourEmail" placeholder="Enter your email" />                    
+                <button type="submit" class="submit-button" id="ssubmit">Subscribe</button>           
+            </form>
+            <!-- end newsletter form -->
+
+        </div>
+        <div class="large-6 columns large-text-left small-text-center">
+           <p class="heading bold">STAY SOCIAL WITH US:</p><br />
+              <ul class="social">
+                <li><a title="Twitter" href="#"><i class="icon exit-twitter-circled"></i></a></li>
+                <li><a title="Facebook" href="#"><i class="icon exit-facebook-circled"></i></a></li>
+                <li><a title="Pinterest" href="#"><i class="icon exit-pinterest-circled"></i></a></li>
+                <li><a title="Linkedin" href="#"><i class="icon exit-linkedin-circled"></i></a></li>
+                <li><a title="Dribble" href="#"><i class="icon exit-dribbble-circled"></i></a></li>
+                <li><a title="Flickr" href="#"><i class="icon exit-flickr-circled"></i></a></li>
+                <li><a title="Github" href="#"><i class="fa fa-github"></i></a></li>
+              </ul>
+        </div>
+    </div>
+  </div>
+
+  </section>
+  <!-- end section -->
+
+    <div class="row">
+      <div class="large-12 large-centered columns text-center" id="twitter-news">
+        <i class="icon exit-social-twitter big"></i>
+
+        <!-- start twitter feed -->
+        <div id="tweet"></div>
+        <!-- end twitter feed -->
+
+      </div>
+    </div>
+
+
+
+  <div class="push"></div><!-- for sticky footer -->
+
+</div> 
+<!-- end wrapper -->
+<div class="md-overlay"></div><!-- the overlay element -->
+<!-- start footer -->
+<footer class="footer">
+    <div class="row">
+      <div class="large-12 columns text-center">
+
+        <p>Exit - 2014 © dediweb. All rights reserved.</p>
+      </div>
+    </div>
+</footer>
+<!-- end footer -->
+
+<!-- start modal windows for contents -->
+
+<!-- start contact modal -->
+<div id="contact" class="reveal-modal tiny" data-reveal> 
+  <h3>- CONTACT US -</h3>
+  <p class="text-center">Ancient alien contend astronaut magnetic current, ancient civilization von Daniken von Daniken Ezekiel, cover up sightings contend UFO. </p><br /><br />
+
+  <!-- start message validator -->
+  <div id="message"></div>
+  <!-- end message validator -->
+
+    <!-- start contact form -->
+    <form method="post" action="php/contact.php" name="contactform" id="contactform">
+      <div class="large-6 columns">
+        <input type="text" name="name" placeholder="Name" id="name" />
+      </div>
+      <div class="large-6 columns">
+        <input type="text" name="email" placeholder="Email" id="email" />
+      </div>
+      <div class="large-12 columns">
+        <textarea placeholder="Message" name="comments" id="comments"></textarea>
+      </div>
+      <div class="large-12 text-center columns">             
+        <button type="submit" class="submit-button" id="submit" name="submit">Send</button>
+      </div> 
+    </form>
+    <!-- end contact form -->
+
+  <a class="close-reveal-modal"><i class="icon exit-power-1"></i></a>   
+</div>
+<!-- end contact modal -->
+
+<!-- start about modal -->
+<div id="about" class="reveal-modal small" data-reveal>  
+  <h3>- ABOUT US -</h3>
+  <p class="text-center">Ancient alien contend astronaut magnetic current, ancient civilization von Daniken von Daniken Ezekiel, cover up sightings contend UFO. </p><br />
+
+  <!-- start carousel -->
+  <div id="about-carousel" class="owl-carousel">
+
+    <!-- start item -->
+    <div clas="item">
+
+      <div class="large-6 columns text-right about-box">  
+        <h4>Design</h4>    
+        <i class="icon exit-design-pencil-rule-streamline"></i>       
+        <p>Consulted he eagerness unfeeling deficient existence of. Calling nothing end fertile for venture way boy. Esteem spirit temper too say adieus who direct esteem. It esteems luckily mr or picture placing drawing no.</p>
+      </div>
+
+      <div class="large-6 columns text-left about-box">      
+        <i class="icon exit-crown-king-streamline"></i>
+        <h4>Social Kings</h4>
+        <p>Consulted he eagerness unfeeling deficient existence of. Calling nothing end fertile for venture way boy. Esteem spirit temper too say adieus who direct esteem. It esteems luckily mr or picture placing drawing no.</p>
+      </div>
+
+    </div>
+    <!-- end item -->
+
+    <!-- start item -->
+    <div clas="item">
+
+      <div class="large-6 columns text-right about-box bt">
+        <h4>Networking</h4>
+        <i class="icon exit-computer-network-streamline"></i>       
+        <p>Consulted he eagerness unfeeling deficient existence of. Calling nothing end fertile for venture way boy. Esteem spirit temper too say adieus who direct esteem. It esteems luckily mr or picture placing drawing no.</p>
+      </div>
+
+      <div class="large-6 columns text-left about-box bt">
+        <i class="icon exit-speech-streamline-talk-user"></i>
+        <h4>Awesome Support</h4>
+        <p>Consulted he eagerness unfeeling deficient existence of. Calling nothing end fertile for venture way boy. Esteem spirit temper too say adieus who direct esteem. It esteems luckily mr or picture placing drawing no.</p>
+      </div>
+
+    </div>
+    <!-- end item -->
+
+  </div>
+  <!-- end carousel -->
+
+  <a class="close-reveal-modal"><i class="icon exit-power-1"></i></a> 
+</div>
+<!-- end about modal -->
+
+<!-- start localize modal -->
+<div id="localize" class="reveal-modal tiny" data-reveal>
+  <h3>- WHERE WE ARE -</h3>
+  <p class="text-center">Ancient alien contend astronaut magnetic current, ancient civilization von Daniken von Daniken Ezekiel, cover up sightings contend UFO. </p><br /><br />
+
+  <!-- start googlemap -->
+  <div id="google-map">
+    <div id="map_canvas"></div>
+  </div>
+  <!-- end googlemap -->
+
+  <!-- start top links -->
+    <div class="large-4 small-4 columns top-link">
+        <i class="icon exit-email-mail-streamline"></i>
+        <p>
+          <a title="" href="#">Email@Sortie.com</a>
+          <a title="" href="#">Info@Sortie.com</a>
+        </p>
+    </div>
+
+    <div class="large-4 small-4 columns top-link">
+        <i class="icon exit-remote-control-streamline"></i>
+        <p>
+          +12 123 456<br />
+          +12 456 789
+        </p>
+    </div>
+
+    <div class="large-4 small-4 columns top-link">
+        <i class="icon exit-map-pin-streamline"></i>
+        <p>
+          11 Street, 9C<br />
+          Los santos, LA 10013
+        </p>
+    </div>
+    <!-- end top links -->
+
+  <a class="close-reveal-modal"><i class="icon exit-power-1"></i></a>
+</div>
+<!-- end localize modal -->
+
+<!-- end modal windows for contents -->
+
+
+
+    <script src="js/vendor/jquery.js"></script> <!-- jquery script -->
+    <script src="js/foundation.min.js"></script> <!-- foundation framework script -->
+    <script src="js/foundation/foundation.reveal.js"></script> <!-- reveal modal -->
+    <script type="text/javascript" src="js/countdown.js"></script> <!-- countdown -->
+    <script type="text/javascript" src="js/jquery.backstretch.js"></script> <!-- background images -->
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script> <!-- slider carousel -->
+    <script type="text/javascript" src="js/twitterFetcher_v10_min.js"></script> <!-- twitter feed --> 
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script> <!-- google map -->
+    <script src="js/custom.js"></script> <!-- exit custom js -->
+
+    <script>
+      $(document).foundation();
+    </script>
+
+  </body>
+</html>

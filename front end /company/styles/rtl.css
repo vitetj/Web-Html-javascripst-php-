@@ -1,0 +1,109 @@
+body {
+	direction: rtl;
+}
+.owl-carousel {
+	direction: ltr;
+}
+#pageloader-infos {
+	text-align: left;
+}
+.logo, .sf-menu li, .filters li, .member .member_info, .grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6, .grid_7, .grid_8, .grid_9, .grid_10, .grid_11, .grid_12, #contactForm #sendMessage {
+	float: right
+}
+.sf-menu {
+	float: left
+}
+#header .search {
+	margin: 0 110px 0 0;
+	float: left
+}
+#header .search button {
+	left: 12px;
+	right: auto;
+}
+.search_icon i {
+	margin: 0 28px 28px 0;
+}
+.social_intro a:after {
+	left: -50px;
+	right: auto;
+}
+.social_intro a:first-child:before {
+	right: -27px;
+	left: auto;
+}
+.filters {
+	right: auto;
+	left: 0;
+}
+.filters li {
+	margin: 0 10px 0 0;
+}
+#my_gallery .mix {
+	margin: 0 0 80px 10px;
+	float: right;
+}
+.overlay .like_work {
+	right: auto;
+	left: 10px;
+}
+.meta_work .meta span {
+	margin: 0 0 0 10px;
+}
+.meta_work .meta span:before {
+	right: 5px;
+	left: auto;
+}
+.progress-bar .progress-bar-text {
+	right: 20px;
+	left: auto;
+}
+.member img {
+	float: right;
+	margin: 0 0 30px 30px;
+}
+.m_social a {
+	float: right;
+	margin: 0 0 0 4px;
+}
+.widget .w_title:after {
+	right: 0;
+	left: auto;
+}
+.post .meta span {
+	margin: 0 0 0 30px;
+}
+.widget .dot_list {
+	margin: 0 22px 0 0
+}
+.toggles .toggle-head-sign {
+	left: 20px;
+	right: auto;
+}
+.alpha {
+	margin-left: 1% !important;
+	margin-right: 0 !important;
+}
+.omega {
+	margin-right: 1% !important;
+	margin-left: 0 !important;
+}
+.process [class^="grid_"]:after {
+	content: "\f053";
+	right: -18px;
+	left: auto;
+}
+.fll { float: left; margin: 0 0 10px 20px !important }
+.flr { float: right; margin: 0 20px 10px 0 !important }
+.mi { margin-right: 0 !important; margin-left: 4px !important }
+.mid { margin-right: 0 !important; margin-left: 8px !important }
+.mii { margin-left: 0 !important; margin-right: 4px !important }
+.miid { margin-left: 0 !important; margin-right: 8px !important }
+.s_form {
+	left: -18px;
+	right: auto;
+}
+.s_form:after {
+	left: 22px;
+	right: auto;
+}
